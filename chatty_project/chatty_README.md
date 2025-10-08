@@ -1,5 +1,5 @@
 # 💬 Chatty — Software Requirements Specification (v2)
-[Открыть оригинал в Google Docs]([https://docs.google.com/document/d/ID_твоего_файла/view](https://docs.google.com/document/d/1yRnTI4q4x8IB_nJ1ZYHoTgOAgd8G1SE-aYOF17dxRcU/edit?usp=sharing))
+[📄 Открыть оригинал в Google Docs](https://docs.google.com/document/d/1yRnTI4q4x8IB_nJ1ZYHoTgOAgd8G1SE-aYOF17dxRcU/edit?usp=sharing)
 
 ## 📘 Описание проекта
 Chatty — веб-приложение для изучения иностранных слов в интерактивном формате.  
