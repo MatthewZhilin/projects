@@ -1,0 +1,125 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram id="7ac91c9_CYBIp-0gwyT7" name="Страница 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GGyy2skdk855IDRl_ngY-1" value="par" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="5920" width="670" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="70" y="5740" width="20" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-3" value="Запрос списка фильмов &lt;br&gt;и сериалов Otium &lt;br&gt;(с фильтрами и сортировкой)" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;rounded=1;fontSize=14;entryX=0.069;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GGyy2skdk855IDRl_ngY-2" target="GGyy2skdk855IDRl_ngY-13">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="10" y="120" as="sourcePoint" />
+            <mxPoint x="70" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-4" value="Web Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="520" y="5740" width="240" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="GGyy2skdk855IDRl_ngY-4">
+          <mxGeometry x="70" y="160" width="10" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="GGyy2skdk855IDRl_ngY-4">
+          <mxGeometry x="75" y="470" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-7" value="обработать данные и&lt;br&gt;применить фильтры" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="GGyy2skdk855IDRl_ngY-4" target="GGyy2skdk855IDRl_ngY-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="450" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="450" />
+              <mxPoint x="120" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTSkjr9H8OJ1DYK9kxdG-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GGyy2skdk855IDRl_ngY-4">
+          <mxGeometry x="75" y="630" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UTSkjr9H8OJ1DYK9kxdG-3" value="применить сортировку" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="GGyy2skdk855IDRl_ngY-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="610" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="610" />
+              <mxPoint x="110" y="630" />
+            </Array>
+            <mxPoint x="85" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8H1IvrtpVOy08j5Kx5K-1" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="GGyy2skdk855IDRl_ngY-4">
+          <mxGeometry x="-10" y="430" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n8H1IvrtpVOy08j5Kx5K-2" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="GGyy2skdk855IDRl_ngY-4">
+          <mxGeometry x="-10" y="600" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-8" value="Series Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="5740" width="160" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="GGyy2skdk855IDRl_ngY-8">
+          <mxGeometry x="75" y="320" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Inter, system-ui, -apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;список всех сериалов&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;fontSize=25;startFill=0;endFill=0;dashed=1;exitX=-0.05;exitY=0.205;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="GGyy2skdk855IDRl_ngY-8">
+          <mxGeometry x="-0.001" relative="1" as="geometry">
+            <mxPoint x="75" y="370" as="sourcePoint" />
+            <mxPoint x="-424" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-11" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;GET {{WebServer}}&lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;/&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-offset-key=&quot;a3p1t-1-0&quot;&gt;&lt;span style=&quot;&quot; data-text=&quot;true&quot;&gt;content/list&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=1;fontSize=25;entryX=-0.044;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;" edge="1" parent="1" source="GGyy2skdk855IDRl_ngY-13" target="GGyy2skdk855IDRl_ngY-5">
+          <mxGeometry x="-0.0014" relative="1" as="geometry">
+            <mxPoint x="275" y="5820" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-12" value="UI: Otium" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="265" y="5740" width="150" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="GGyy2skdk855IDRl_ngY-12">
+          <mxGeometry x="70" y="120" width="10" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-15" value="Films Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="770" y="5740" width="160" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=25;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="GGyy2skdk855IDRl_ngY-15">
+          <mxGeometry x="75" y="230" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-17" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;GET {{FilmsServer}}&lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;/films&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-offset-key=&quot;a3p1t-1-0&quot;&gt;&lt;span style=&quot;&quot; data-text=&quot;true&quot;&gt;/list&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=1;fontSize=25;entryX=-0.044;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;" edge="1" parent="GGyy2skdk855IDRl_ngY-15">
+          <mxGeometry x="-0.001" relative="1" as="geometry">
+            <mxPoint x="-170" y="230" as="sourcePoint" />
+            <mxPoint x="75" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-18" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;GET {{SeriesServer}}&lt;/span&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-testid=&quot;resolvedVariable&quot; spellcheck=&quot;false&quot; class=&quot;resolvedVariable&quot;&gt;/series&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; text-align: left;&quot; data-offset-key=&quot;a3p1t-1-0&quot;&gt;&lt;span style=&quot;&quot; data-text=&quot;true&quot;&gt;/list&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=1;fontSize=25;entryX=-0.044;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;" edge="1" parent="GGyy2skdk855IDRl_ngY-15">
+          <mxGeometry x="-0.001" relative="1" as="geometry">
+            <mxPoint x="-169" y="320" as="sourcePoint" />
+            <mxPoint x="330" y="319.86999999999995" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-19" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Inter, system-ui, -apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;список всех фильмов&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;fontSize=25;startFill=0;endFill=0;dashed=1;exitX=0.186;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GGyy2skdk855IDRl_ngY-16" target="GGyy2skdk855IDRl_ngY-5">
+          <mxGeometry x="-0.001" relative="1" as="geometry">
+            <mxPoint x="830" y="6020" as="sourcePoint" />
+            <mxPoint x="600" y="6001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-20" value="список фильмов и сериалов &#xa;(с учетом фильтров и сортировки)" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;startFill=0;endFill=0;dashed=1;exitX=-0.217;exitY=0.96;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.001" relative="1" as="geometry">
+            <mxPoint x="587.8299999999999" y="6480" as="sourcePoint" />
+            <mxPoint x="339.89393939393926" y="6480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGyy2skdk855IDRl_ngY-14" value="список фильмов и сериалов &#xa;(с учетом фильтров и сортировки)" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;rounded=1;startFill=0;endFill=0;dashed=1;exitX=-0.015;exitY=0.943;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="334.85000000000036" y="6540" as="sourcePoint" />
+            <mxPoint x="79.66666666666674" y="6540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
